@@ -128,7 +128,6 @@ public class Runigram {
 		int originalWidth = image[0].length;
 		int originalHeight = image.length;
 		Color[][] scaledImage = new Color[height][width];
-		System.out.println(""+ originalHeight);
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
 				int row = (int)(i * ((double) originalHeight / height));
